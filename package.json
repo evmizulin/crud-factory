@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "crud-factory",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/evmizulin/crud-factory.git"
@@ -15,7 +17,14 @@
   },
   "homepage": "https://github.com/evmizulin/crud-factory#readme",
   "dependencies": {
-    "mongoose": "^4.11.1",
+    "mongoose": "^4.10.4",
     "tvalidator": "^1.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "mocha-logger": "^1.0.5",
+    "request": "^2.81.0"
   }
 }
